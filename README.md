@@ -16,6 +16,7 @@ The paper estimates the causal effect of satellite-based environmental monitorin
 
 The original replication package was published by the authors on the AEA Data and Code Repository (openicpsr-132281). This repository reproduces their full pipeline and adds an econometric extension described below.
 
+The replication was part of an assignment of the course **Intermediate Microeconometrics** (1ECO25)   taught  by Professor José María Rentería at PUCP, during the 2026-1 semester.
 
 Extension: tF Inference Correction (Lee et al. 2022)
 ----------------------------
