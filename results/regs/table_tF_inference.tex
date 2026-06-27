@@ -1,0 +1,33 @@
+% Tabla autogenerada por tF_make_outputs.py
+% Replicación + extensión tF del paper Assunção, Gandour & Rocha (2023, AEJ Applied)
+\begin{table}[!htbp]
+  \centering
+  \footnotesize
+  \caption{Inferencia convencional vs.\ $tF$ (Lee et al., 2022) en las regresiones IV del paper DETER}
+  \label{tab:tF_inference}
+  \begin{tabular}{lcccccc}
+    \toprule
+                   &              & $F$ 1\textsuperscript{a} & \multicolumn{2}{c}{SE convencional} & \multicolumn{2}{c}{SE $tF_{5\%}$} \\
+    \cmidrule(lr){4-5}\cmidrule(lr){6-7}
+    Especificación & $\hat\beta$  & etapa                    & SE      & ($t$)            & SE      & ($t_{tF}$) \\
+    \midrule
+    T2 c1 — IHS (benchmark) & $-$0.0503$^{**}$ & 10.11 & 0.0235 & ($-$2.14) & 0.0409 & ($-$1.23) \\
+    T2 c2 — ln(def + 0{,}01) & $-$0.0743$^{*}$ & 10.11 & 0.0399 & ($-$1.86) & 0.0695 & ($-$1.07) \\
+    T2 c3 — def / área muni & $-$0.0244$^{**}$ & 10.11 & 0.0123 & ($-$1.98) & 0.0214 & ($-$1.14) \\
+    T2 c4 — def / media & $-$0.0452$^{*}$ & 10.11 & 0.0243 & ($-$1.86) & 0.0424 & ($-$1.07) \\
+    T3 c7 — cluster estado-año & $-$0.0503$^{*}$ & 9.40 & 0.0288 & ($-$1.75) & 0.0522 & ($-$0.96) \\
+    \bottomrule
+  \end{tabular}
+  \begin{minipage}{0.95\linewidth}
+    \vspace{4pt}\scriptsize
+    \textit{Notas:} Regresiones replicadas con \texttt{xtivreg2}, efectos fijos de
+    municipio y año, controles completos (clima rezagado, visibilidad PRODES, precios
+    agrícolas). T2 c1--c4 con cluster municipio + microrregión-año; T3 c7 con cluster
+    municipio + estado-año. $F$ es el Kleibergen--Paap Wald rk (equivalente al $F$
+    clásico en \textit{single-instrument}, Lee et al.\ 2022, p.~3262 nota 10). Factor de
+    ajuste $tF$ al 5\% interpolado linealmente de la Tabla~3A de Lee et al.\ (2022); en el
+    rango $F \in [9{,}40;\ 10{,}11]$ los SE crecen entre 1{,}74$\times$ y 1{,}81$\times$.
+    Significancia con SE convencionales: $^*$ p$<$0{,}10; $^{**}$ p$<$0{,}05; $^{***}$ p$<$0{,}01.
+    \textbf{Ninguna} especificación es significativa al 5\% bajo inferencia $tF$.
+  \end{minipage}
+\end{table}

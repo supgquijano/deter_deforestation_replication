@@ -1,0 +1,63 @@
+# CPC GLOBAL UNIFIED PRECICIPATION (CPCG Precipitation)
+# files: netCDF files with pattern CPCG_precipitation_"YEAR1_YEAR2", where "YEAR1_YEAR2" assumes the following values: "2003_2006", "2007_2010", "2011_2014", "2015_2016"; original files renamed in order to organize arquives chronologically
+# content: precipitation registered on a daily basis; lat(45°S; 15°N); lon(260°E; 330°E) (extent); daily (frequency); JAN/01/2003 through DEC/31/2016
+# source:  National Oceanic and Atmospheric Administration, Climate Prediction Center (NOAA-CPC) provided by Physical Sciences Laboratory (NOAA-PSL) 
+# available at: https://psl.noaa.gov/cgi-bin/db_search/DBSearch.pl?Dataset=CPC+Global+Precipitation&Statistic=Total&Variable=Precipitation&group=0&submit=Search
+# raw data downloaded on: MAY/17/2018
+# web archived at: https://web.archive.org/web/20200910170401/https://psl.noaa.gov/data/gridded/data.cpc.globalprecip.html (main page only with complete metadata - for download see instructions below)
+# web archived on: SEP/10/2020
+# CRS: LongLat (coordinate system), WGS84(datum), not projected
+#
+# INSTRUCTIONS FOR DOWNLOAD - same process for each "CPCG_precipitation_YEAR1_YEAR2" file
+# 1) insert the link (https://psl.noaa.gov/cgi-bin/db_search/DBSearch.pl?Dataset=CPC+Global+Precipitation&Statistic=Total&Variable=Precipitation&group=0&submit=Search) on a browser
+# 2) click on "Make plot or subset"
+# 3) Set Axis Dimensions: lat(45°S; 15°N); lon(260°E; 330°E)
+# 4) Set time range. Example for "2003_2006": (Begin: 2003/JAN/1 - End: 2006/DEC/31). Do the same for each combination of "YEAR1_YEAR2" described above
+# 5) Select Output options: "Create a subset without making a plot"
+# 6) Click on "Create Plot or Subset of Data"
+# 7) Click on "FTP a copy of the file"
+# 8) Save file in the input folder using the file pattern mentioned above
+
+
+
+# CPC GLOBAL TEMPERATURE (CPCG Temperature - Maximum)
+# files: pattern CPCG_temperature_max_"YEAR1_YEAR2", where "YEAR1_YEAR2" assumes the following values: "2003_2006", "2007_2010", "2011_2014", "2015_2016"; original files renamed in order to organize arquives chronologically
+# content: maximum temperature registered on a daily basis; lat(45°S; 15°N); lon(260°E; 330°E) (extent); daily (frequency); JAN/01/1979 through DEC/31/2016
+# source:  National Oceanic and Atmospheric Administration, Climate Prediction Center (NOAA-CPC) provided by Physical Sciences Laboratory (NOAA-PSL) 
+# available at: https://psl.noaa.gov/cgi-bin/db_search/DBSearch.pl?Dataset=CPC+Global+Temperature&Statistic=Maximum&Variable=Maximum+Temperature&group=0&submit=Search
+# raw data downloaded on: MAY/17/2018
+# web archived at: https://web.archive.org/web/20200910172109/https://psl.noaa.gov/data/gridded/data.cpc.globaltemp.html (main page only with complete metadata - for download see instructions below)
+# web archived on: SEP/10/2020
+# CRS: LongLat (coordinate system), WGS84(datum), not projected
+#
+# INSTRUCTIONS FOR DOWNLOAD - same process for each "CPCG_temperature_max_YEAR1_YEAR2" file
+# 1) insert the link (https://psl.noaa.gov/cgi-bin/db_search/DBSearch.pl?Dataset=CPC+Global+Temperature&Statistic=Maximum&Variable=Maximum+Temperature&group=0&submit=Search) on a browser
+# 2) click on "Make plot or subset"
+# 3) Set Axis Dimensions: lat(45°S; 15°N); lon(260°E; 330°E)
+# 4) Set time range. Example for "2003_2006": (Begin: 2003/JAN/1 - End: 2006/DEC/31). Do the same for each combination of "YEAR1_YEAR2" described above
+# 5) Select Output options: "Create a subset without making a plot"
+# 6) Click on "Create Plot or Subset of Data"
+# 7) Click on "FTP a copy of the file"
+# 8) Save file in the input folder using the file pattern mentioned above
+
+
+
+# CPC GLOBAL TEMPERATURE (CPCG Temperature - minimum)
+# files: pattern CPCG_temperature_min_"YEAR1_YEAR2", where "YEAR1_YEAR2" assumes the following values: "2003_2006", "2007_2010", "2011_2014", "2015_2016"; original files renamed in order to organize arquives chronologically
+# content: minimum temperature registered on a daily basis; lat(45°S; 15°N); lon(260°E; 330°E) (extent); daily (frequency); JAN/01/1979 through DEC/31/2016
+# source: National Oceanic and Atmospheric Administration, Climate Prediction Center (NOAA-CPC) provided by Physical Sciences Laboratory (NOAA-PSL) 
+# available at: https://psl.noaa.gov/cgi-bin/db_search/DBSearch.pl?Dataset=CPC+Global+Temperature&Statistic=Minimum&Variable=Minimum+Temperature&group=0&submit=Search 
+# raw data downloaded on: JUN/11/2018
+# web archived at: https://web.archive.org/web/20200910172109/https://psl.noaa.gov/data/gridded/data.cpc.globaltemp.html (main page only with complete metadata - for download see instructions below)
+# web archived on: SEP/10/2020
+# CRS: LongLat (coordinate system), WGS84(datum), not projected
+#
+# INSTRUCTIONS FOR DOWNLOAD - same process for each "CPCG_temperature_min_YEAR1_YEAR2" file
+# 1) insert the link (https://psl.noaa.gov/cgi-bin/db_search/DBSearch.pl?Dataset=CPC+Global+Temperature&Statistic=Minimum&Variable=Minimum+Temperature&group=0&submit=Search) on a browser
+# 2) click on "Make plot or subset"
+# 3) Set Axis Dimensions: lat(45°S; 15°N); lon(260°E; 330°E)
+# 4) Set time range. Example for "2003_2006": (Begin: 2003/JAN/1 - End: 2006/DEC/31). Do the same for each combination of "YEAR1_YEAR2" described above
+# 5) Select Output options: "Create a subset without making a plot"
+# 6) Click on "Create Plot or Subset of Data"
+# 7) Click on "FTP a copy of the file"
+# 8) Save file in the input folder using the file pattern mentioned above

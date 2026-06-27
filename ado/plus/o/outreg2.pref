@@ -1,0 +1,3 @@
+12 Feb 2021
+using `"tableC3_robustness_altWeather.txt"'
+keep(L.deter_cloud) ctitle("depvar: enforcement", "2SLS", "stage 1") stats(coef se) dec(4) nocons nor2 noaster addtext("FE: municipality & year",        "yes",                                                                                                             "controls: full",              "yes",                                                                                                                                                 "rainfall dataset",        "NCEP",                                                                                                                                                 "temperature dataset",             "MW") excel append

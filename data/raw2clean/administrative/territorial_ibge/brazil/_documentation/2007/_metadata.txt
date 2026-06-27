@@ -1,0 +1,13 @@
+﻿# BRAZILIAN MUNICIPALITIES
+# files: shapefile (original layer name '55mu2500gsd')
+# content: municipal perimeter (polygons data frame); Brazil (extent); 2007 (year of reference)
+# source: Brazilian Institute for Geography and Statistics (IBGE)
+# available at: 
+#  ftp://geoftp.ibge.gov.br/organizacao_do_territorio/malhas_territoriais/malhas_municipais/municipio_2007/escala_2500mil/proj_policonica_sad69/brasil/
+# raw data downloaded on: MAR/29/2017
+# web archived at: https://web.archive.org/web/20200908153308/ftp://geoftp.ibge.gov.br/organizacao_do_territorio/malhas_territoriais/malhas_municipais/municipio_2007/escala_2500mil/proj_policonica_sad69/brasil/55mu2500psd.zip
+# raw data archived on: SEP/08/2020
+# CRS: LongLat (coordinate system); SAD69 (datum) with UGGI 67 (ellipsoid); not projected
+# obs:
+# We have identified that IBGE documents data for two bodies of water in RS
+# with the following muni codes: 4300001 & 4300002.

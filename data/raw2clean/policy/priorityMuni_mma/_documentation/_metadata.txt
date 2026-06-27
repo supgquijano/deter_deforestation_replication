@@ -1,0 +1,9 @@
+# PRIORITY MUNICIPALITIES (LEGAL AMAZON DEFORESTATION)
+# files: original data only available in pdf ('MMA_muni_priority.pdf' and 'MMA_muni_monitored.pdf'); dataset built in R script 
+# content: list of Legal Amazon priority municipalities with entry/exit dates and legal documentation (.pdf files); Brazilian Legal Amazon (extent); >
+#          2017 (year of reference)
+# source: Brazilian Ministry of the Environment (MMA)
+# available at: http://combateaodesmatamento.mma.gov.br/images/conteudo/lista_municipios_prioritarios_AML_2017.pdf
+# raw data collected on: JAN/08/2018
+# web archived at: https://web.archive.org/web/20200915211728/http://combateaodesmatamento.mma.gov.br/images/conteudo/lista_municipios_prioritarios_AML_2017.pdf
+# archived on: SEP/15/2020

@@ -1,0 +1,17 @@
+# ENVIRONMENTAL SANCTIONS (FINES)
+# files: original 'amaz_legal_infracao_ambiental_original.xls' was multitab Excel document; converted to multiple csv files via Excel export
+# content: history of issued environmental fines (.xls file); Brazilian Legal Amazon (extent); 2000-2015 (period of reference)
+# source: Brazilian Institute for the Environment and Renewable Natural Resources (IBAMA)
+# available: upon request via e-SIC (Sistema Eletronico do Servico de Informacao ao Cidadao) [https://esic.cgu.gov.br/sistema/site/index.html]
+# raw data received on: MAY/2016 
+# obs: raw data sent by mail in physical media (to Christiane Szerman, CPI Research Assistant, who placed the data request at e-SIC)
+#
+# INSTRUCTIONS FOR DOWNLOAD (at the time the method explained below was not available)
+# 1) insert the url "https://servicos.ibama.gov.br/ctf/publico/areasembargadas/ConsultaPublicaAreasEmbargadas.php" on a mozila firefox browser (this method does not work using google chrome) 
+# 2) select "Autuações Ambientais" in "Consulta Pública"
+# 3) Select "Todos" in "Tipo de Infração"
+# 4) For each year of input data (YYYY = 2000 through 2015):
+#	4.1) fill "Período de *" with "01/01/YYYY" 
+#	4.2) fill "até" with "31/12/YYYY"
+#	4.3) click on the green button "Exportar Planilha" (right-bottom corner)
+# obs: the .R scripts provided will need to be adapted due to format differences between both ways of obtaining the data but the original .R files can be used as reference 

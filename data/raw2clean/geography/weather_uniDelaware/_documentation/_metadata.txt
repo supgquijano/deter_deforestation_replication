@@ -1,0 +1,29 @@
+# TERRESTRIAL AIR TEMPERATURE: 1900-2017 GRIDDED MONTHLY TIME SERIES (V 5.01)
+# files: multiple ASCII files compressed under Unix (original compressed file name 'air_temp_2017.tar.gz'; original ASCII files 'air_temp.YYYY' where 
+#        YYYY represents reference year)
+# content: monthly-mean air temperatures interpolated to a 0.5 by 0.5 degree grid resolution and centered on 0.25 degree (ASCII files); global, but
+#          terrestrial only (extent); monthly for JAN/1900 through DEC/2017 (frequency/date of reference)
+# source: Willmott, C. J. and Matsuura, K. (2018) Terrestrial Air Temperature and Precipitation: Monthly and Annual Time Series (1900 - 2017)
+# available at: http://climate.geog.udel.edu/~climate/html_pages/download.html
+# raw data downloaded on: JUL/11/2019
+# raw data archived at: https://web.archive.org/web/20200910183757/http://climate.geog.udel.edu/~climate/html_pages/Global2017/air_temp_2017.tar.gz
+# raw data archived on: SEP/10/2020 
+
+
+# TERRESTRIAL PRECIPITATION: 1900-2017 GRIDDED MONTHLY TIME SERIES (V 5.01)
+# files: multiple ASCII files compressed under Unix (original compressed file name 'precip_2017.tar.gz'; original ASCII files 'precip.YYYY' where YYYY
+#        represents reference year)
+# content: monthly total precipitation interpolated to a 0.5 by 0.5 degree grid resolution and centered on 0.25 degree (ASCII files); global, but
+#          terrestrial only (extent); monthly for JAN/1900 through DEC/2017 (frequency/date of reference)
+# source: Willmott, C. J. and Matsuura, K. (2018) Terrestrial Air Temperature and Precipitation: Monthly and Annual Time Series (1900 - 2017)
+# available at: http://climate.geog.udel.edu/~climate/html_pages/download.html
+# raw data downloaded on: JUL/11/2019
+# raw data archived at: https://web.archive.org/web/20200910184200/http://climate.geog.udel.edu/~climate/html_pages/Global2017/precip_2017.tar.gz
+# raw data archived on: SEP/10/2020 
+
+
+# obs: from data download hub [for both terrestrial air temperature and terrestrial precipitation]
+#      All files available here for downloading have been "compressed" under Unix in order to save space. A single compressed file has ".Z" extension.
+#      You may need to respecify the ".Z" extension when you save a compressed file. Some of our archives also have multiple files (such as time 
+#      series) that are "tar"ed under Unix and have a ".tar" extension. As a result, files must be "untared" and/or "uncompressed" to return them to
+#      their original ASCII format, before they may be used.

@@ -1,0 +1,15 @@
+# CLOUD FRACTION (1 MONTH - TERRA/MODIS) - MODIS Atmosphere L3 Monthly Product (V 6.01)
+# files: multiple netCDF files links for download on filesForDownload.txt (by month)
+# content: monthly-mean cloud fraction interpolated to a 1 by 1 degree grid resolution;
+#          monthly for AUG/2000 through JUL/2016  (frequency/date)
+# source:  Platnick, King and Hubanks (2017) - NASA MODIS Adaptive Processing System provided by NASA Earth Data Giovanni
+# available at: https://giovanni.gsfc.nasa.gov/giovanni/#service=MpAn&starttime=2000-08-01T00:00:00Z&endtime=2016-07-31T23:59:59Z&bbox=-75.94,-34.45,31.64,7.73&data=MOD08_M3_6_1_Cloud_Fraction_Mean_Mean&dataKeyword=cloud%20fraction
+# raw data downloaded on: JUL/21/2020
+# web archived at: dx.doi.org/10.5067/MODIS/MOD08_M3.061 (documentation page only)
+# web archive retrieved on: SEP/23/2020
+# METHOD USED TO OBTAIN THE DATA:
+# 1) created a log in on NASA Earth Data
+# 2) used the parameters specified at https://giovanni.gsfc.nasa.gov/giovanni/#service=MpAn&starttime=2000-08-01T00:00:00Z&endtime=2016-07-31T23:59:59Z&bbox=-75.94,-34.45,31.64,7.73&data=MOD08_M3_6_1_Cloud_Fraction_Mean_Mean&dataKeyword=cloud%20fraction
+# 3) clicked on "Plot Data"
+# 4) downloaded url list for each month and saved as "filesForDownload.txt"
+# 5) manually downloaded each file using the links provided in "filesForDownload.txt"

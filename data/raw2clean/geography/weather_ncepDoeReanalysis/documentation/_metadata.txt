@@ -1,0 +1,12 @@
+# NCEP-DOE Reanalysis 2
+# file: pr_wtr.eatm.mon.mean
+# content: mean monthly precipitation; lat(90°S; 90°N); lon(0°E; 357.5°E) (extent); monthly (frequency); JAN/01/1979 through MAR/31/2019
+# source:  NOAA, National Centers for Environmental Prediction (NCEP) provided by NOAA-PSL
+# available at: https://psl.noaa.gov/data/gridded/data.ncep.reanalysis2.surface.html
+# raw data downloaded on: APR/24/2019
+# raw data archived at: https://web.archive.org/web/20200910180228/ftp://ftp.cdc.noaa.gov/Datasets/ncep.reanalysis2.derived/surface/pr_wtr.eatm.mon.mean.nc
+# raw data archived on: SEP/10/2020 
+# CRS: LongLat (coordinate system), WGS84(datum), not projected
+#
+# obs: see the README file in this folder for more informations
+

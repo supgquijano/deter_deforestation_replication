@@ -1,0 +1,99 @@
+The following description is provided by MMA (Ministério do Meio Ambiente) and
+is avaiable at http://mapas.mma.gov.br/geonetwork/srv/br/metadata.show?id=1250 .
+It was obtained on MAR/11/2016.
+
+Informação do sistema de referência
+	Código 				Geográfica - SAD 69
+
+
+
+Informação da qualidade dos dados
+	Nivel hierárquico 		Dataset
+	Declaração 			A qualidade do dado é especificada no arquivo (dbf) para cada UC na coluna qualidade
+
+
+
+Informação da qualidade dos dados
+	Nivel hierárquico 		attribute
+	Atributos 			ID_UC
+	Recursos 			Número identificador da UC no banco de dados do CNUC
+	Atributos das instâncias 	número
+
+
+
+Informação da qualidade dos dados
+	Nivel hierárquico 		attribute
+	Atributos 			NOME_UC
+	Recursos 			Nome da Unidade de Conservação
+
+
+
+Informação da qualidade dos dados
+	Nivel hierárquico 		attribute
+	Atributos 			ID_WCMC
+	Recursos 			Número de identificação da UC no banco de dados internacional de áreas protegidas (WDPA), coordenado pela WCMC (United Nations Environment Programme - World Conservation Monitoring Centre)
+
+
+
+Informação da qualidade dos dados
+	Nivel hierárquico 		attribute
+	Recursos 			Classificação da UC quanto à categoria segundo o SNUC (Lei nº 9.985/2000)
+	Atributos 			CATEGORIA
+	Atributos das instâncias 	RPPN - Reserva Particular do Patrimônio Natural
+	Atributos das instâncias 	APA - Área de Proteção Ambiental
+	Atributos das instâncias 	ARIE - Área de Relevante Interesse Ecológico
+	Atributos das instâncias 	ESEC - Estação Ecológica
+	Atributos das instâncias 	FLORESTA - Floresta Nacional, Estadual ou Municipal
+	Atributos 			MONA - Monumento Natural
+	Atributos das instâncias 	PARQUE - Parque Nacional, Parque Estadual ou Parque Municipal
+	Atributos das instâncias 	RDS - Reserva de Desenvolvimento Sustentável
+	Atributos das instâncias 	REBIO - Reserva Biológica
+	Atributos das instâncias 	RESEX - Reserva Extrativista
+	Atributos das instâncias 	RFAU - Reserva de Fauna
+	Atributos 			RPPN - Reserva Particular do Patrimônio Natural
+	Atributos das instâncias 	RVS - Refúgio de Vida Silvestre
+
+
+
+Informação da qualidade dos dados
+	Nivel hierárquico 		attribute
+	Atributos 			GRUPO
+	Recursos 			Sigla relativa ao tipo de unidade de conservação
+	Atributos das instâncias 	PI - proteção integral
+	Atributos das instâncias 	US - uso sustentável
+
+
+
+Informação da qualidade dos dados
+	Nivel hierárquico 		attribute
+	Atributos 			ESFERA
+	Recursos		 	Jurisdição a qual a UC está submetida
+	Atributos das instâncias 	Federal
+	Atributos das instâncias 	Municipal
+	Atributos das instâncias 	Estadual
+
+
+
+Informação da qualidade dos dados
+	Nivel hierárquico 		attribute
+	Atributos 			ANO_CRIA
+	Recursos	 		Ano de criação da unidade de conservação
+
+
+
+Informação da qualidade dos dados
+	Nivel hierárquico 		attribute
+	Atributos 			QUALIDADE
+	Recursos 			Qualidade do dado georreferenciado dos limites da UC cadastrado pelo Órgão Gestor
+	Atributos das instâncias 	Correto (O polígono corresponde ao memorial descritivo do ato legal de criação)
+	Atributos das instâncias 	Aproximado (O polígono representa uma estimativa dos limites da unidade)
+	Atributos das instâncias 	Esquemático (O polígono é uma representação esquemática da dimensão da unidade)
+
+
+Metadados
+	Indentificado do arquivo 	a9517170-8dcd-11da-a7a5-0011253f5524
+	Linguagem 			pt
+	Character set 			Utf8
+	Date stamp 			2012-04-20T15:28:43
+	Metadata standard name 		ISO 19115
+	Metadata standard version 	FDIS

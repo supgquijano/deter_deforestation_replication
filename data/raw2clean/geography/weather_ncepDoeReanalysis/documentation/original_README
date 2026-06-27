@@ -1,0 +1,143 @@
+    NCEP-DOE Reanalysis 2: Surface Grids
+    
+    Brief Description:
+    
+    * NCEP-DOE Reanalysis 2 is an improved version of the NCEP Reanalysis
+    I model that fixed errors and updated paramterizations of of
+    physical processes
+    
+    Temporal Coverage:
+    
+    * 4-times and monthly values for 1979/01/01 to 2016/06/30 .
+    
+    Spatial Coverage:
+    
+    * 2.5-degree latitude x 2.5-degree longitude global grid (144x73).
+    * 90N - 90S, 0E - 357.5E
+    
+    Levels:
+    
+    * Surface or columnar total.
+    
+    Update Schedule:
+    
+    * Updates adding the previous year's data occur during the first
+    quarter of the next.
+    
+    Download/Plot Data:
+    
+    Variable Statistic Level Download File Create Plot/Subset
+    Precipitable water 4-times Daily Values Surface See list plot
+    Precipitable water Daily Mean Surface See list plot
+    Precipitable water Monthly Mean Surface pr_wtr.eatm.mon.mean.nc plot
+    Pressure 4-times Daily Values Surface See list plot
+    Pressure Daily Mean Surface See list plot
+    Pressure Monthly Mean Surface pres.sfc.mon.mean.nc plot
+    Mean Sea level pressure 4-times Daily Values Sea level See list plot
+    Mean Sea level pressure Daily Mean Sea level See list plot
+    Mean Sea level pressure Monthly Mean Sea Level mslp.mon.mean.nc plot
+    Surface height (time invariant) * Surface hgt.sfc.nc plot
+    
+    Usage Restrictions:
+    
+    * None
+    
+    Detailed Description:
+    
+    * The NCEP-DOE Reanalysis 2 project is using a state-of-the-art
+    analysis/forecast system to perform data assimilation using past
+    data from 1979 through the previous year. A large subset of this
+    data is available from PSD in its original 4 times daily format and
+    as daily averages.
+    
+    Caveats:
+    
+    * Bad MSLP data in 2004 NetCDF files. The MSLP data in the NetCDF
+    files representing 2004 values that were added to our archives in
+    early April, 2004, were done incorrectly. The source data from NCEP
+    were fine; it was a processing error here. This was corrected late
+    on 2005/06/23. If you have downloaded 2004 MSLP data from us at any
+    of the three temporal frequencies, you are strongly urged to
+    reacquire the data.
+    * Bad skin temperatures in 1982. The skin temperature (variable name
+    skt) for 1982 had bad data. These data were updated late on
+    2003/05/14 based on new GRIB file from NCEP. All three temporal
+    frequencies were affected and thus updated.
+    * Note:  § The skt.sfc files contain skin temperature as described in
+    the March, 1996 BAMS article. As such, over land and sea ice, the
+    temperature is a prognostic variable. Over open water, the skin
+    temperature is fixed at its initial value; i.e., the Reynolds SST
+    as seen by the model. The Reynolds' SST analyses were done weekly
+    and the reconstructed SST done monthly. The analyses were linearly
+    interpolated to daily values which were used for all four analyses.
+    * hgt.sfc is time-invariant.
+    
+    Related File Naming & Structure Information:
+    
+    File Names:
+    * var.yyyy.nc   (In directory: /Datasets/ncep.reabnalysis2/surface/)
+    * var.yyyy.nc   (In directory:
+    /Datasets/ncep.reabnalysis2.dailyavgs/surface/)
+    * var.mon.mean.nc   (In directory:
+    /Datasets/ncep.reabnalysis2.derived/surface/)
+    
+    Dataset Format and Size:
+    * PSD standard NetCDF 311 Mbyte file for each monthly file (packed).
+    * PSD standard NetCDF 30 Mbyte file for each long term mean file
+    (packed).
+    * By anonymous FTP:
+    
+    * 4x daily data are available from ftp.cdc.noaa.gov in
+    /Datasets/ncep.reanalysis2/surface/.
+    * The 4x data files are quite large, so you may only be able to
+    download them if you have a fast network connection.
+    * Daily averages are available from ftp.cdc.noaa.gov in
+    /Datasets/ncep.reanalysis2.dailyavgs/surface/.
+    * The data are divided by variable and year into separate files
+    * There are 1,796files currently
+    * Files are 5 to 52 Mbytes per variable per year
+    * Current total of 45 Gbytes for 4xDaily and 11 Gbytes for daily
+    averages
+    
+    Missing Data:
+    * None.
+    
+    Citation:
+    
+    * Please note: If you acquire NCEP/DOE 2 Reanalysis data products
+    from PSD, we ask that you acknowledge us in your use of the data.
+    This may be done by including text such as NCEP/DOE 2 Reanalysis
+    data provided by the NOAA/OAR/ESRL PSD, Boulder, Colorado, USA,
+    from their Web site at http://www.esrl.noaa.gov/psd/ in any
+    documents or publications using these data. We would also
+    appreciate receiving a copy of the relevant publications. This will
+    help PSD to justify keeping the NCEP/DOE 2 Reanalysis data set
+    freely available online in the future. Thank you!
+    
+    References:
+    
+    * http://www.cpc.ncep.noaa.gov/products/wesley/reanalysis2/kana/reanl
+    2-1.htm
+    * NCEP-DOE AMIP-II Reanalysis (R-2): M. Kanamitsu, W. Ebisuzaki, J.
+    Woollen, S-K Yang, J.J. Hnilo, M. Fiorino, and G. L. Potter.
+    1631-1643, Nov 2002, Bulletin of the American Meteorological
+    Society.
+    
+    Original Source:
+    
+    * NOAA National Centers for Environmental Predictions
+    
+    Contact:
+    
+    * Physical Sciences Division: Data Management
+    NOAA/ESRL/PSD
+    325 Broadway
+    Boulder, CO 80305-3328
+    esrl.psd.data@noaa.gov
+    
+    U.S. Department of Commerce | National Oceanic and Atmospheric
+    Administration
+    Earth System Research Laboratory | Physical Sciences Division
+    http://www.esrl.noaa.gov/psd/data/gridded/data.ncep.reanalysis2.surface
+    .html
+    

@@ -1,0 +1,11 @@
+gid = pindigenous lands olygon identifier (numeric) - 1:1750
+terrai_code = indigenous lands code (numeric) - 101:73720
+terrai_nome = indigenous lands name (character) 
+etnia_nome = indigenous lands ethnicity name (character)
+municipio_ = municipality name (character)
+uf_sigla = state name abbreviation (character)
+superficie = indigenous lands surface perimeter - in hectars (numeric)
+fase_ti = indigenous lands demarcation status (character) - declared, delimited, under assessment, regularized, approved, submitted as indigenous reserve
+modalidade = indigenous lands type (character) - indigenous dominium, interdicted, indigenous reserve, traditionally occupied
+reeestudo_t = indigenous lands under reassessment (character)
+cr = indigenous lands regional coordination name

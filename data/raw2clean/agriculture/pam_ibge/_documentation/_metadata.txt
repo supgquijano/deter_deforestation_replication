@@ -1,0 +1,50 @@
+# METADATA
+#
+# MUNICIPAL CROP PRODUCTION (PRODUCAO AGRICOLA MUNICIPAL - PAM)
+# content: crop-specific production data (historical series); Brazil (extent); municipality (level); 2000-2015 (period of reference);  
+# annual (frequency)
+# files: pattern "pam_crop_00_15"
+# source: Brazilian Institute for Geography and Statistics (IBGE)
+# available at: https://sidra.ibge.gov.br/tabela/1612
+# raw data downloaded on: JUN/6/2017 (2000-2015)
+# web archived at: not able to archive because the data source needs to prepare it before
+#
+# obs: complete metadata with codebook available at https://metadados.ibge.gov.br/consulta/estatisticos/operacoes-estatisticas/PA 
+#
+# obs: 5 separated downloads - one for each crop - cassava, corn, rice, soybean and sugarcane - follow instructions below:
+# INSTRUCTIONS FOR DOWNLOAD
+# 1) Use each one of the 5 links provided below:
+# 1.1) cassava - available at: https://sidra.ibge.gov.br/tabela/1612#/n6/all/v/109,214,215,216/p/2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015/c81/2708/l/,c81+v,t+p/cfg/cod,
+# 1.2) corn - available at: https://sidra.ibge.gov.br/tabela/1612#/n6/all/v/109,214,215,216/p/2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015/c81/2711/l/,c81+v,t+p/cfg/cod,
+# 1.3) rice - available at: https://sidra.ibge.gov.br/tabela/1612#/n6/all/v/109,214,215,216/p/2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015/c81/2692/l/,c81+v,t+p/cfg/cod,
+# 1.4) soybean - available at: https://sidra.ibge.gov.br/tabela/1612#/n6/all/v/109,214,215,216/p/2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015/c81/2713/l/,c81+v,t+p/cfg/cod,
+# 1.5) sugarcane - available at: https://sidra.ibge.gov.br/tabela/1612#/n6/all/v/109,214,215,216/p/2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015/c81/2696/l/,c81+v,t+p/cfg/cod,
+# 2) Do not change any of the pre-selected options and click on download
+# 3) Fill the pop-up 
+# 3.1) Nome do arquivo: "pam_*insertCropName*_00_15"
+# 3.2) Formato: CSV (US)
+# 3.3) Check two boxes "Exibir códigos de territórios" and "Exibir nomes de territórios"
+# 3.4) Select "A Posteriori (até 3.000.000 valores)" option
+# 3.5) Fill the box "Digite e-mails separados por vírgula" with your email to be notified when the file is ready to be downloaded; example: "email1@hotmail.com,email2@gmail.com"
+# 3.6) Press Download
+
+
+# MUNICIPAL CROP PRODUCTION (PRODUCAO AGRICOLA MUNICIPAL - PAM)
+# content: total production data (historical series); Brazil (extent); municipality (level); 2000-2017 (period of reference);  
+# annual (frequency)
+# files: pattern "pam_total_00_17"
+# source: Brazilian Institute for Geography and Statistics (IBGE)
+# available at: https://sidra.ibge.gov.br/tabela/5457
+# raw data downloaded on: MAY/13/2019 (2000-2017)
+# web archived at: not able to archive because the data source needs to prepare it before)
+#
+# INSTRUCTIONS FOR DOWNLOAD
+# 1) Use the following link: "https://sidra.ibge.gov.br/tabela/5457#/n6/all/v/214,215,216,8331/p/2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017/c782/0/l/,c782+v,t+p"
+# 2) Do not change any of the pre-selected options and click on download
+# 3) Fill the pop-up 
+# 3.1) Nome do arquivo: "pam_total_00_17"
+# 3.2) Formato: CSV (US)
+# 3.3) Check two boxes "Exibir códigos de territórios" and "Exibir nomes de territórios"
+# 3.4) Select "A Posteriori (até 3.000.000 valores)" option
+# 3.5) Fill the box "Digite e-mails separados por vírgula" with your email to be notified when the file is ready to be downloaded; example: "email1@hotmail.com,email2@gmail.com"
+# 3.6) Press Download

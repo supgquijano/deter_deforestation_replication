@@ -1,0 +1,100 @@
+# =============================================================================
+# .gitignore — Replication: DETERring Deforestation in the Amazon
+# =============================================================================
+# Se sube: código, ado, panel final de análisis, resultados, documentación.
+# Se excluye: datos crudos pesados, intermedios, logs, archivos de sistema.
+# =============================================================================
+
+
+# --- DATOS CRUDOS PESADOS (NetCDF, ZIPs de inputs) ---------------------------
+
+# NASA cloud fraction: ~200 archivos .nc mensuales (2000–2016)
+data/raw2clean/geography/cloud_nasa/input/
+
+# Clima CPCG: archivos .nc diarios de temperatura y precipitación
+data/raw2clean/geography/weather_CPCG/input/
+
+# Clima NCEP reanalysis: .nc mensual global
+data/raw2clean/geography/weather_ncepDoeReanalysis/input/
+
+# Clima Uni Delaware: archivos de texto anuales (air_temp.YYYY, precip.YYYY)
+data/raw2clean/geography/weather_uniDelaware/input/
+
+# DETER alerts & clouds: zip con miles de shapefiles
+data/raw2clean/land_cover/deter_inpe/input.zip
+
+# Outputs intermedios zipeados (excluir del repo, instrucciones en README)
+data/raw2clean/geography/weather_CPCG/output.zip
+data/raw2clean/geography/weather_ncepDoeReanalysis/output.zip
+
+
+# --- OUTPUTS INTERMEDIOS DEL PIPELINE (regenerables con el código) -----------
+
+# Outputs de raw2clean (generados por code/raw2clean/**)
+data/raw2clean/administrative/territorial_ibge/brazil/output/
+data/raw2clean/administrative/territorial_ibge/legal_amazon/output/
+data/raw2clean/agriculture/pam_ibge/output/
+data/raw2clean/agriculture/ppm_ibge/output/
+data/raw2clean/geography/biomes_ibge/output/
+data/raw2clean/geography/cloud_nasa/output/
+data/raw2clean/geography/weather_CPCG/output/
+data/raw2clean/geography/weather_ncepDoeReanalysis/output/
+data/raw2clean/geography/weather_uniDelaware/output/
+data/raw2clean/land_cover/deter_inpe/output/
+data/raw2clean/land_cover/prodes_inpe/municipality_level/output/
+data/raw2clean/macro/commodities_seabpr/output/
+data/raw2clean/macro/deflator_fgv/output/
+data/raw2clean/policy/fines_ibama/output/
+data/raw2clean/policy/indigenousLands_funaiIsa/output/
+data/raw2clean/policy/priorityMuni_mma/output/
+data/raw2clean/policy/protectedAreas_mma/output/
+
+# Datos construidos (generados por code/built/**)
+data/built/
+
+# Temporales
+data/_temp/
+
+
+# --- DATA/PROJECTSPECIFIC: excluir intermedios, conservar panel final --------
+
+# Objetos R intermedios
+data/projectSpecific/*.Rdata
+
+# Panel mensual intermedio (21 MB, regenerable; el final sí se sube)
+data/projectSpecific/panelMonthly_fromR.dta
+
+# Panel crudo pre-limpieza (regenerable)
+data/projectSpecific/panel_fromR.dta
+
+# panel_forAnalysis.dta        → SE SUBE (3.2 MB, permite replicar Stata sin pipeline R)
+# panel_forAnalysis_monthly.dta → SE SUBE (21 MB, panel mensual para figuras)
+
+
+# --- ARCHIVOS DE SISTEMA Y ENTORNO -------------------------------------------
+
+# Logs de Stata
+*.log
+*.smcl
+
+# README generado (se regenera desde README.md con rmarkdown)
+README.html
+
+# RStudio
+.Rproj.user/
+
+# R checkpoint library (paquetes pesados, se reinstalan automáticamente)
+.checkpoint/
+
+# Windows
+desktop.ini
+Thumbs.db
+
+# Instrucciones internas de Claude Code
+CLAUDE.md
+
+
+# --- PDFs DE REFERENCIA (papers de otros autores, no outputs propios) --------
+aer.20211063.pdf
+qjad054.pdf
+IV2 Deforestation in Amazon (3).pdf

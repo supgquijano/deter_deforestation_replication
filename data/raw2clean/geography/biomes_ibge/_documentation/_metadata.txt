@@ -1,0 +1,13 @@
+# BRAZILIAN BIOMES
+# files: shapefile (original layer name 'bioma')
+# content: biome perimeter (polygons data frame); Brazil (extent); not dated
+# source: MMA (Ministerio do Meio Ambiente) / IBGE (Instituto Brasileiro de Geografia e Estatistica)
+# available at: http://mapas.mma.gov.br/i3geo/datadownload.htm
+# raw data downloaded on: JAN/26/2016
+# web archived at: not able to archive any of the download links
+# CRS: undocumented & missing proj4string - *likely* LongLat (coordinate system), SAD69 (datum), not projected
+# INSTRUCTIONS FOR DOWNLOAD
+# Use the following links to download the shp, shx and dbf files that compose the shapefile and save them together in the input folder
+# 1) shp - http://mapas.mma.gov.br/ms_tmp/bioma.shp
+# 2) shx - http://mapas.mma.gov.br/ms_tmp/bioma.shx
+# 3) dbf - http://mapas.mma.gov.br/ms_tmp/bioma.dbf

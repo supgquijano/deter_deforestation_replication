@@ -1,0 +1,12 @@
+# IPA EP DI - INDEX
+# content: IPA EP (historical series); Aug. 1994 = 100 (baseline); monthly as of 1944 (frequency)
+# source: Fundacao Getulio Vargas, Conjuntura Economica - IGP (FGV/Conj. Econ. - IGP)
+# available at: http://www.ipeadata.gov.br
+# raw data downloaded on: APR/17/19
+# archive at: https://web.archive.org/web/20200915184800/http://www.ipeadata.gov.br/Default.aspx (main page only)
+# web archived on: SEP/15/2020
+#
+# INSTRUCTIONS FOR DOWNLOAD
+# 1) insert the url "http://www.ipeadata.gov.br" on the browser
+# 2) insert "IPA EP FGV" on the "Search:" area then check the box with "Nome: IPA-DI - geral - índice (ago. 1994 = 100)" and "Freq.: Mensal"
+# 3) click on "export in CSV (;)" (on the upper right corner) and save the .csv file in the input folder

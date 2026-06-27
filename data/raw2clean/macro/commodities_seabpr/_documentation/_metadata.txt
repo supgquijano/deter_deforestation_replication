@@ -1,0 +1,27 @@
+# AGRICULTURAL COMMODITY PRICES
+# content: product-specific price data (historical series); Parana (extent); state (level); monthly as of 1990 (frequency)
+# source:  Agriculture and Supply Secretariat of the State of Parana (SEAB-PR)
+# available at: http://www.ipeadata.gov.br
+# raw data downloaded on: APR/16/2019
+# archive at: https://web.archive.org/web/20200915184800/http://www.ipeadata.gov.br/Default.aspx (main page only)
+# web archived on: SEP/15/2020
+#
+# obs: select products
+# average price received by producer - rice - 50kg - PR (arroz em casca)
+# average price received by producer - sugarcane - 1t - PR
+# average price received by producer - cassava - 1t - PR
+# average price received by producer - corn - 60kg - PR
+# average price received by producer - soybean - 60kg - PR
+# average price received by producer - cattle - arroba - PR (boi gordo) 
+#
+# obs: originally downloaded as xlsx from Ipeadata but saved as csv
+#
+# INSTRUCTIONS FOR DOWNLOAD
+# 1) insert the url "http://www.ipeadata.gov.br" on the browser
+# 2) insert "SEAB-PR arroz em casca" on the "Search:" area then check the box with "Preço médio - recebido pelo agricultor - arroz (em casca) - 50 kg - PR"
+# 3) insert "SEAB-PR cana" on the "Search:" area then check the box with "Preço médio - recebido pelo agricultor - cana-de-açúcar - tonelada - PR"
+# 4) insert "SEAB-PR mandioca" on the "Search:" area then check the box with "Preço médio - recebido pelo agricultor - mandioca - tonelada - PR"
+# 5) insert "SEAB-PR milho" on the "Search:" area then check the box with "Preço médio - recebido pelo agricultor - milho - 60 kg - PR"
+# 6) insert "SEAB-PR soja" on the "Search:" area then check the box with "Preço médio - recebido pelo agricultor - soja - 60 kg - PR"
+# 7) insert "SEAB-PR boi gordo" on the "Search:" area then check the box with "Preço médio - recebido pelo agricultor - boi gordo - arroba - PR"
+# 8) click on "export in CSV (;)" (on the upper right corner) and save the .csv file in the input folder

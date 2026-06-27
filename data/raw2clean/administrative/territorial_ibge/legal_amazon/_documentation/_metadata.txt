@@ -1,0 +1,11 @@
+# BRAZILIAN LEGAL AMAZON
+# file: shapefile (original layer name 'AMAZONIA_LEGAL_LIMITE')
+# content: Legal Amazon perimeter (polygons data frame), multi-state geopolitical division of Brazil (extent), not dated
+# source: Brazilian Institute for the Environment and Renewable Natural Resources (IBAMA)
+# available at: http://siscom.ibama.gov.br/shapes/ (not working anymore use archive) 
+# raw data downloaded on: FEB/01/2013
+# web archived at: https://web.archive.org/web/20120721033244/http://siscom.ibama.gov.br/shapes//AMAZONIA_LEGAL_LIMITE.zip
+# raw data archived on: JUL/21/2012 (same version of the downloaded data)
+# CRS: LongLat (coordinate system - from shapefile proj4string), SAD69 (datum), not projected
+#
+# obs: There are no labels in the raw2clean script because the important information is the spatial perimeter. There is only one column "Id" and one row filled with NA.

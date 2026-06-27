@@ -1,0 +1,15 @@
+# BRAZILIAN PROTECTED AREAS
+# content: protected areas ["unidades de conservacao"] (polygons data frame), Brazil (extent), 2016 (year of reference)
+# source: Brazilian National Registry for Conservation Units (CNUC), Brazilian Ministry of the Environment (MMA)
+# available at: http://mapas.mma.gov.br/i3geo/datadownload.htm#
+# raw data downloaded on: MAR/11/2016
+# web archived at: not able to archive any of the download links
+# CRS: undocumented & missing proj4string - *likely* LongLat (coordinate system), SAD69 (datum), not projected
+#
+# obs: see description file in this folder for more details about the data.
+#
+# INSTRUCTIONS FOR DOWNLOAD
+# Use the following links to download the shp, shx and dbf files that compose the shapefile and save them together in the input folder
+# 1) shp - http://mapas.mma.gov.br/ms_tmp/ucstodas.shp
+# 2) shx - http://mapas.mma.gov.br/ms_tmp/ucstodas.shx
+# 3) dbf - http://mapas.mma.gov.br/ms_tmp/ucstodas.dbf
